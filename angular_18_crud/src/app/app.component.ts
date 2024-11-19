@@ -12,7 +12,7 @@ import { EmployeeModel } from './model/Employee';
 })
 export class AppComponent {
 
-  employeeForm?: FormGroup;
+  employeeForm: FormGroup = new FormGroup({});
 
   employeeObj: EmployeeModel = new EmployeeModel();
 

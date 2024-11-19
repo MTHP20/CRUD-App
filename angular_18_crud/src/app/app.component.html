@@ -31,6 +31,7 @@
         New Employee
       </div>
       <div class="card-body">
+        <form [formGroup]="employeeForm">
         <div class="row">
           <div class="col-12">
             <label for="">Name</label>
@@ -64,11 +65,12 @@
         <div class="row pt-2">
           <div class="col-6 text-center">
             <button class="btn btn-secondary">Reset</button>
-          </div> 
+          </div>
           <div class="col-6 text-center">
             <button class="btn btn-success">Save Employee</button>
           </div>
         </div>
+        </form>
       </div>
     </div>
   </div>

@@ -6,4 +6,14 @@ export class EmployeeModel {
     emailID: string;
     contactNo: string;
     address: string;
+
+    constructor() {
+        this.address = '';
+        this.city = '';
+        this.contactNo = '';
+        this.emailID = '';;
+        this.empId = 0;
+        this.name = '';
+        this.state = '';
+    }
 }
